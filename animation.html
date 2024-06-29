@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		.a1{
+			height: 100px;
+			width: 100px;
+			position: absolute;
+			animation-name: A1;
+			background-color: skyblue;
+			animation-duration: 5s;
+			z-index: -3;
+			border-radius: 180px;
+		}
+		.a2{
+			height: 100px;
+			width: 100px;
+			position: absolute;
+			animation-name: A2;
+			background-color: pink;
+			animation-duration: 5s;
+			z-index: -2;
+			border-radius: 180px;
+		}
+
+		.a3{
+			height: 100px;
+			width: 100px;
+			position: absolute;
+			animation-name: A3;
+			background-color: gray;
+			animation-duration: 5s;
+			z-index: -1;
+			border-radius: 180px;
+		}
+		@keyframes A1{
+				0%{
+					top: 450px;
+					left: 0px;
+				}				
+				33%{
+					top: 450px;
+					left: 500px;
+
+				}
+				66%{
+					top: 0px;
+					left: 250px;
+					
+				}
+				100%{
+					top: 450px;
+					left: 0px;
+					
+				}
+		}
+		@keyframes A2{
+				0%{
+					top: 450px;
+					left: 0px;
+				}				
+				33%{
+					top: 450px;
+					left: 500px;
+
+				}
+				66%{
+					top: 450px;
+					left: 250px;
+					
+				}
+				100%{
+					top: 450px;
+					left: 0px;
+					
+				}
+		}
+		@keyframes A3{
+				0%{
+					top: 450px;
+					left: 0px;
+				}				
+				33%{
+					top: 450px;
+					left: 500px;
+
+				}
+				66%{
+					top: 900px;
+					left: 250px;
+					
+				}
+				100%{
+					top: 450px;
+					left: 0px;
+					
+				}
+		}
+	</style>
+	<title></title>
+</head>
+<body>
+	<div class="a1"></div>
+	<div class="a2"></div>
+	<div class="a3"></div>
+</body>
+</html>
